@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* Sarcasm and Sarcastic Styles */
+body{
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #444444;
+    line-height: 1;
+    max-width: 960px;
+    padding: 30px;
+	font-size: 1em;
+}
+h1, h2, h3, h4 {
+    color: #222;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, p {
+    margin-bottom: 14px;
+    padding: 0;
+}
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 36px;
+    margin: 24px 0 6px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 21px;
+	padding-bottom: 3px;
+	border-bottom: 3px solid #ccc;
+}
+h5 {
+    font-size: 18px;
+}
+a {
+    color: #0099ff;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+li {
+    line-height: 24px;
+}
+p, ul, ol {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 800px;
+}
+pre {
+    padding: 0px 24px;
+    max-width: 800px;
+    white-space: pre-wrap;
+	background-color: #444;
+  	color: #fff;
+}
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 13px;
+}
+blockquote {
+    margin: 1em 3em;
+    max-width: 500px;
+	border-left: 3px solid #888;
+	padding-left: 10px;
+}
+blockquote p {
+    color: #666;
+    max-width: 460px;
+}
+hr {
+    width: 540px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    color: #999;
+}
+/* /////////////////////
+ Sarcasm Styles Below  /
+///////////////////// */
+
+/* Without Quotation Marks */
+.sarcasm {
+	font-weight:bold;
+	font-size: .8em;
+	color: #444;
+    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+}
+/* With Quotation Marks */
+.sarcastic {
+	font-weight: bold;
+	font-size: .8em;
+	color: #444;
+    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+}
+.sarcastic:before {
+	content:open-quote;
+	color: #ccc;
+	font-size: 1.5em;
+	padding-right: .15em;
+}
+.sarcastic:after {
+	content:close-quote;
+	color: #ccc;
+	font-size: 1.5em;
+	padding-left: .25em;
+}

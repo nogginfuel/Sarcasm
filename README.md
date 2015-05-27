@@ -65,7 +65,7 @@ Additionally, there are included styles for quotation marks that will appear bef
 
 
 #####License
-**MIT**
+**[MIT][1]**
 
 
 ######Future Roadmap
@@ -73,3 +73,5 @@ Additionally, there are included styles for quotation marks that will appear bef
 + Tweak text spacing
 + Add more examples
 + Get style to work on span elements
+
+[1] : LICENSE.md "LICENSE"

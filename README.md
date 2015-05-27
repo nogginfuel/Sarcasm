@@ -13,6 +13,8 @@ Additionally, there are included styles for quotation marks that will appear bef
 
 ####Regular Sarcasm
 <p class="sarcasm">I totally believe you.</p>
+![Regular Sarcasm](sarcasm1.png "Regular Sarcasm")
+
 <code>
 	<pre>
 .sarcasm {
@@ -31,6 +33,7 @@ Additionally, there are included styles for quotation marks that will appear bef
 
 ####Accented Sarcasm
 <p class="sarcastic">You really are the smartest person in the room.</p>
+![Accented Sarcasm](sarcasm2.png "Accented Sarcasm")
 <code>
 	<pre>
 .sarcastic {
@@ -61,6 +64,7 @@ Additionally, there are included styles for quotation marks that will appear bef
 
 ####Accented Sarcasm Blockquote
 <blockquote class="sarcastic">That is the best idea that I've heard today. How did you come up with something so brilliant? Please take the reigns and guide us to the future.</blockquote>
+![Accented Sarcasm Blockquote](sarcasm3.png "Accented Sarcasm Blockquote")
 
 
 #####License

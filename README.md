@@ -1,6 +1,6 @@
 <link href="sarcasm.css" rel="stylesheet"></link>
 
-#Sarcasm in its own right
+# Sarcasm in its own right
 
 Sarcasm is pervasive in business and casual conversation. Identifying sarcasm audibly is usually not too difficult. But sarcasm doesn't translate very well in emails, community forums and other online communications.
 
@@ -11,7 +11,7 @@ I'm proposing that sarcasm be represented in a common format everyone can easily
 Additionally, there are included styles for quotation marks that will appear before and after the sarcastic text. These are optional and intended for use if you feel that the blackward slant and bolding do not sufficiently drive home the point. The color of the quotation marks is de-emphasized to ensure the text is the focal point. Again, if you feel the quotation marks are unnecessary, just comment out the corresponding styles.
 
 
-####Regular Sarcasm
+## Regular Sarcasm
 ![Regular Sarcasm](sarcasm1.png "Regular Sarcasm")
 
 <code>
@@ -30,7 +30,7 @@ Additionally, there are included styles for quotation marks that will appear bef
 </code>
 
 
-####Accented Sarcasm
+## Accented Sarcasm
 ![Accented Sarcasm](sarcasm2.png "Accented Sarcasm")
 <code>
 	<pre>
@@ -60,15 +60,15 @@ Additionally, there are included styles for quotation marks that will appear bef
 </code>
 
 
-####Accented Sarcasm Blockquote
+## Accented Sarcasm Blockquote
 ![Accented Sarcasm Blockquote](sarcasm3.png "Accented Sarcasm Blockquote")
 
 
-#####License
+## License
 [MIT](LICENSE.md)
 
 
-######Future Roadmap
+## Future Roadmap
 
 + Tweak text spacing
 + Add more examples

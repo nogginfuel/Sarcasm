@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* Sarcasm and Sarcastic Styles */
+/* Generic Styles - Sarcasm Styles start at line 89 */
 body{
     margin: 0 auto;
     font-family:Arial, Helvetica, sans-serif;
@@ -84,38 +84,99 @@ hr {
 /* /////////////////////
  Sarcasm Styles Below  /
 ///////////////////// */
-
 /* Without Quotation Marks */
-.sarcasm {
-	font-weight:bold;
-	font-size: .8em;
+/* Regular Sarcasm */
+.sarcasm-reg {
+	font-weight:400;
+	font-size: 1rem;
 	color: #444;
-    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
-    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
-    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
-    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
-    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+    -moz-transform: skewX(7.5deg);
+    -webkit-transform: skewX(7.5deg);
+    -o-transform: skewX(7.5deg);
+    -ms-transform: skewX(7.5deg);
+    transform: skewX(7.5deg);
 }
+/* Heavy Sarcasm */
+.sarcasm-heavy {
+	font-weight:700;
+	font-size: 1rem;
+	color: #444;
+    -moz-transform: skewX(7.5deg);
+    -webkit-transform: skewX(7.5deg);
+    -o-transform: skewX(7.5deg);
+    -ms-transform: skewX(7.5deg);
+    transform: skewX(7.5deg);
+}
+/* Sarcasm for Span Elements */
+/* Regular Sarcasm */
+.sarcasm-reg {
+	display: inline-block; /* can use inline-block or block */
+	font-weight:400;
+	font-size: 1rem;
+	color: #444;
+    -moz-transform: skewX(7.5deg);
+    -webkit-transform: skewX(7.5deg);
+    -o-transform: skewX(7.5deg);
+    -ms-transform: skewX(7.5deg);
+    transform: skewX(7.5deg);
+}
+/* Heavy Sarcasm */
+.sarcasm-heavy {
+	display: inline-block; /* can use inline-block or block */
+	font-weight:700;
+	font-size: 1rem;
+	color: #444;
+    -moz-transform: skewX(7.5deg);
+    -webkit-transform: skewX(7.5deg);
+    -o-transform: skewX(7.5deg);
+    -ms-transform: skewX(7.5deg);
+    transform: skewX(7.5deg);
+}
+
 /* With Quotation Marks */
 .sarcastic {
-	font-weight: bold;
-	font-size: .8em;
+	font-weight: 700;
+	font-size: 1rem;
 	color: #444;
-    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
-    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
-    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
-    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
-    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(15deg, 0deg);
+    -moz-transform: skewX(7.5deg);
+    -webkit-transform: skewX(7.5deg);
+    -o-transform: skewX(7.5deg);
+    -ms-transform: skewX(7.5deg);
+    transform: skewX(7.5deg);
 }
 .sarcastic:before {
 	content:open-quote;
-	color: #ccc;
-	font-size: 1.5em;
+	color: #ff0000;
+	font-size: 1.25em;
 	padding-right: .15em;
 }
 .sarcastic:after {
 	content:close-quote;
-	color: #ccc;
-	font-size: 1.5em;
-	padding-left: .25em;
+	color: #ff0000;
+	font-size: 1.25em;
+	padding-left: .15em;
+}
+/* Sarcastic for Span Elements */
+.sarcastic {
+	display: inline-block; /* can use inline-block or block */
+	font-weight: 700;
+	font-size: 1rem;
+	color: #444;
+    -moz-transform: skewX(7.5deg);
+    -webkit-transform: skewX(7.5deg);
+    -o-transform: skewX(7.5deg);
+    -ms-transform: skewX(7.5deg);
+    transform: skewX(7.5deg);
+}
+.sarcastic:before {
+	content:open-quote;
+	color: #ff0000;
+	font-size: 1.25em;
+	padding-right: .15em;
+}
+.sarcastic:after {
+	content:close-quote;
+	color: #ff0000;
+	font-size: 1.25em;
+	padding-left: .15em;
 }

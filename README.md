@@ -14,6 +14,7 @@ Additionally, there are included styles for quotation marks that will appear bef
 ## Regular Sarcasm
 ![Regular Sarcasm](sarcasm1.png "Image of Regular Sarcasm")
 <code>
+<pre>
 .sarcasm-reg {
 	font-weight:400;
 	font-size: 1rem;
@@ -24,11 +25,13 @@ Additionally, there are included styles for quotation marks that will appear bef
     -ms-transform: skewX(7.5deg);
     transform: skewX(7.5deg);
 }
+</pre>
 </code>
 
 ## Regular Sarcasm
 ![Regular Sarcasm](sarcasm1b.png "Image of Heavy Sarcasm")
 <code>
+<pre>
 .sarcasm-reg {
 	font-weight:700;
 	font-size: 1rem;
@@ -39,12 +42,14 @@ Additionally, there are included styles for quotation marks that will appear bef
     -ms-transform: skewX(7.5deg);
     transform: skewX(7.5deg);
 }
+</pre>
 </code>
 
 
 ## Accented Sarcasm
 ![Accented Sarcasm](sarcasm2.png "Image of Accented Sarcasm")
 <code>
+<pre>
 .sarcastic {
 	font-weight: 700;
 	font-size: 1rem;
@@ -67,6 +72,7 @@ Additionally, there are included styles for quotation marks that will appear bef
 	font-size: 1.25em;
 	padding-left: .15em;
 }
+</pre>
 </code>
 
 

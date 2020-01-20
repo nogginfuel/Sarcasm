@@ -12,7 +12,7 @@ Additionally, there are included styles for quotation marks that will appear bef
 
 
 ## Regular Sarcasm
-![Regular Sarcasm](sarcasm1.png "Image of Regular Sarcasm")
+![Regular Sarcasm](1.png "Image of Regular Sarcasm")
 
 <pre>
 .sarcasm-reg {
@@ -28,8 +28,8 @@ Additionally, there are included styles for quotation marks that will appear bef
 </pre>
 
 
-## Regular Sarcasm
-![Heavy Sarcasm](sarcasm1b.png "Image of Heavy Sarcasm")
+## Heavy Sarcasm
+![Heavy Sarcasm](2.png "Image of Heavy Sarcasm")
 
 <pre>
 .sarcasm-heavy {
@@ -47,7 +47,7 @@ Additionally, there are included styles for quotation marks that will appear bef
 
 
 ## Accented Sarcasm
-![Accented Sarcasm](sarcasm2.png "Image of Accented Sarcasm")
+![Accented Sarcasm](3.png "Image of Sarcastic Comment")
 <pre>
 .sarcastic {
 	font-weight: 700;
